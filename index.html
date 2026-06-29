@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>শহীদ অনলাইন সার্ভিসেস পয়েন্ট | Shahid Online Services Point — সিলেট</title>
+<meta name="description" content="সিলেটের নির্ভরযোগ্য ডিজিটাল সেবা কেন্দ্র। এনআইডি, জন্ম নিবন্ধন, পাসপোর্ট, অনলাইন আবেদন ও সকল ডিজিটাল সেবা এক জায়গায়। Trusted online service center in Bangladesh." />
+<meta name="keywords" content="online service center Bangladesh, NID service, passport service, digital service center, Sylhet online service, জন্ম নিবন্ধন, পাসপোর্ট আবেদন" />
+<meta name="author" content="Shahid Online Services Point" />
+
+<!-- OpenGraph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Shahid Online Services Point — আপনার নির্ভরযোগ্য ডিজিটাল সেবা কেন্দ্র" />
+<meta property="og:description" content="এনআইডি, জন্ম নিবন্ধন, পাসপোর্ট, অনলাইন আবেদনসহ সকল ডিজিটাল সেবা এক জায়গায়।" />
+<meta property="og:locale" content="bn_BD" />
+<meta name="theme-color" content="#0B5ED7" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<!-- LocalBusiness + FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Shahid Online Service Point",
+  "image": "",
+  "description": "Trusted digital service center in Sylhet helping people complete government and online applications quickly and accurately.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Masum Bazar, Biroshree, Zakiganj Road",
+    "addressLocality": "Sylhet",
+    "postalCode": "3190",
+    "addressCountry": "BD"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 24.9166236,
+    "longitude": 92.3075883
+  },
+  "hasMap": "https://maps.app.goo.gl/hxCmEaVXCXeBedyC7",
+  "telephone": "+8801619234820",
+  "openingHours": "Sa-Th 09:00-21:00",
+  "priceRange": "৳৳"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"NID করতে কী লাগবে?","acceptedAnswer":{"@type":"Answer","text":"জন্ম নিবন্ধন/সংশ্লিষ্ট ডকুমেন্ট, শিক্ষাগত সনদ এবং প্রয়োজনীয় তথ্য নিয়ে এলেই হবে।"}},
+    {"@type":"Question","name":"পাসপোর্ট আবেদন কত দিনে হয়?","acceptedAnswer":{"@type":"Answer","text":"সাধারণত আবেদন সম্পন্ন করতে অল্প সময় লাগে, ডেলিভারি সরকারি প্রক্রিয়ার উপর নির্ভরশীল।"}}
+  ]
+}
+</script>
+
+<style>
+:root{
+  --blue:#0B5ED7; --blue-dark:#0844a0; --green:#198754; --white:#FFFFFF;
+  --bg:#F8FAFC; --text:#1F2937; --muted:#5B6573; --line:#E5EAF1;
+  --grad:linear-gradient(135deg,#0B5ED7 0%,#1576e8 45%,#198754 100%);
+  --shadow:0 10px 30px -12px rgba(11,94,215,.25);
+  --shadow-lg:0 24px 60px -20px rgba(11,94,215,.35);
+  --radius:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Hind Siliguri','Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden}
+body.en{font-family:'Inter','Hind Siliguri',sans-serif}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+section{padding:84px 0}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 22px}
+.en [data-bn]:not(option):not(optgroup){display:none}
+.bn [data-en]:not(option):not(optgroup){display:none}
+
+/* scroll progress */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--grad);z-index:1000;transition:width .1s}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:999px;font-weight:600;font-size:15px;cursor:pointer;border:none;transition:.25s;white-space:nowrap}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:var(--shadow)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.btn-ghost{background:#fff;color:var(--blue);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--blue);transform:translateY(-2px)}
+
+/* NAVBAR */
+header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:.3s}
+header.shrink{padding:0;box-shadow:0 6px 24px -16px rgba(0,0,0,.3)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px;transition:.3s}
+header.shrink .nav{height:60px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:700}
+.logo{width:42px;height:42px;border-radius:12px;background:var(--grad);display:grid;place-items:center;color:#fff;flex-shrink:0;box-shadow:var(--shadow)}
+.brand b{font-size:16.5px;line-height:1.1}
+.brand span{display:block;font-size:11.5px;color:var(--muted);font-weight:500}
+.menu{display:flex;align-items:center;gap:26px;list-style:none}
+.menu a{font-size:15px;font-weight:500;color:var(--text);position:relative;padding:4px 0}
+.menu a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--grad);transition:.25s}
+.menu a:hover::after{width:100%}
+.nav-actions{display:flex;align-items:center;gap:12px}
+.lang-toggle{display:flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;font-size:13px;font-weight:600}
+.lang-toggle button{border:none;background:#fff;padding:7px 13px;cursor:pointer;color:var(--muted)}
+.lang-toggle button.active{background:var(--grad);color:#fff}
+.hamburger{display:none;background:none;border:none;cursor:pointer;color:var(--text)}
+.drawer{position:fixed;inset:0 0 0 auto;width:78%;max-width:320px;background:#fff;z-index:950;transform:translateX(100%);transition:.35s;padding:80px 26px;box-shadow:var(--shadow-lg);display:flex;flex-direction:column;gap:8px}
+.drawer.open{transform:translateX(0)}
+.drawer a{padding:13px 14px;border-radius:12px;font-weight:600}
+.drawer a:hover{background:var(--bg)}
+.overlay{position:fixed;inset:0;background:rgba(15,23,42,.4);z-index:940;opacity:0;visibility:hidden;transition:.3s}
+.overlay.open{opacity:1;visibility:visible}
+.drawer-close{position:absolute;top:22px;right:22px;background:none;border:none;cursor:pointer;color:var(--text)}
+
+/* HERO */
+.hero{position:relative;background:var(--grad);color:#fff;overflow:hidden;padding:96px 0 110px}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(8px);opacity:.18;background:#fff}
+.hero::before{width:380px;height:380px;top:-120px;right:-80px}
+.hero::after{width:260px;height:260px;bottom:-100px;left:-60px;opacity:.12}
+.blob{position:absolute;border:2px solid rgba(255,255,255,.16);border-radius:40% 60% 55% 45%;animation:float 9s ease-in-out infinite}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:2}
+.hero h1{font-size:clamp(30px,4.4vw,50px);font-weight:700;line-height:1.18;margin-bottom:18px}
+.en .hero h1{font-weight:800}
+.hero p.sub{font-size:18px;opacity:.94;margin-bottom:30px;max-width:540px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+.hero .btn-ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.4);backdrop-filter:blur(6px)}
+.hero .btn-ghost:hover{background:rgba(255,255,255,.22)}
+.badges{display:flex;gap:10px;flex-wrap:wrap}
+.badge{display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.14);backdrop-filter:blur(8px);padding:9px 15px;border-radius:999px;font-size:13.5px;font-weight:500;border:1px solid rgba(255,255,255,.18)}
+.hero-art{position:relative;display:grid;place-items:center}
+.hero-card{background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:26px;width:100%;box-shadow:var(--shadow-lg)}
+.hero-card h4{font-size:14px;opacity:.85;margin-bottom:16px;font-weight:500}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mini{background:rgba(255,255,255,.16);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;transition:.25s}
+.mini:hover{background:rgba(255,255,255,.28);transform:translateY(-3px)}
+.mini .ic{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.22);display:grid;place-items:center}
+.mini b{font-size:13.5px;font-weight:600}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(28px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* section title */
+.eyebrow{display:inline-block;color:var(--blue);font-weight:700;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px}
+.sec-title{font-size:clamp(26px,3.4vw,38px);font-weight:700;line-height:1.25;margin-bottom:14px}
+.sec-sub{color:var(--muted);font-size:16.5px;max-width:620px}
+.center{text-align:center}
+.center .sec-sub{margin:0 auto}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center;margin-top:8px}
+.about-visual{background:var(--grad);border-radius:24px;aspect-ratio:4/3.4;display:grid;place-items:center;color:#fff;position:relative;overflow:hidden;box-shadow:var(--shadow-lg)}
+.about-visual .big-ic{width:120px;height:120px;border-radius:28px;background:rgba(255,255,255,.16);display:grid;place-items:center;backdrop-filter:blur(8px)}
+.mv-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
+.mv{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
+.mv .ic{width:42px;height:42px;border-radius:12px;background:#EAF1FE;color:var(--blue);display:grid;place-items:center;margin-bottom:12px}
+.mv h5{font-size:17px;margin-bottom:6px}
+.mv p{font-size:14.5px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.stat{text-align:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 10px}
+.stat .num{font-size:30px;font-weight:800;color:var(--blue);font-family:'Inter',sans-serif}
+.stat .lbl{font-size:13px;color:var(--muted);margin-top:4px}
+
+/* SERVICES */
+.svc-cat{font-size:20px;font-weight:700;margin:36px 0 18px;display:flex;align-items:center;gap:10px}
+.svc-cat .dot{width:8px;height:24px;border-radius:6px;background:var(--grad)}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.svc::before{content:"";position:absolute;inset:0;background:var(--grad);opacity:0;transition:.3s;z-index:0}
+.svc:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.svc:hover::before{opacity:1}
+.svc>*{position:relative;z-index:1;transition:.3s}
+.svc:hover h4,.svc:hover p,.svc:hover .more{color:#fff}
+.svc .ic{width:50px;height:50px;border-radius:14px;background:#EAF1FE;color:var(--blue);display:grid;place-items:center;margin-bottom:16px;transition:.3s}
+.svc:hover .ic{background:rgba(255,255,255,.22);color:#fff;transform:scale(1.06)}
+.svc h4{font-size:16px;margin-bottom:7px;line-height:1.4}
+.svc p{font-size:13.5px;color:var(--muted);margin-bottom:14px}
+.more{font-size:13.5px;font-weight:600;color:var(--blue);display:inline-flex;align-items:center;gap:5px}
+
+/* WHY */
+.why{background:linear-gradient(180deg,#EAF1FE 0%,#F8FAFC 100%)}
+.why-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:8px}
+.feat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 18px;text-align:center;transition:.3s}
+.feat:hover{transform:translateY(-7px);box-shadow:var(--shadow-lg)}
+.feat .ic{width:56px;height:56px;border-radius:16px;margin:0 auto 14px;background:var(--grad);color:#fff;display:grid;place-items:center}
+.feat h5{font-size:16px;margin-bottom:6px}
+.feat p{font-size:13px;color:var(--muted)}
+
+/* REVIEWS */
+.reviews{background:var(--grad);color:#fff}
+.rev-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;margin-top:10px;scrollbar-width:none}
+.rev-track::-webkit-scrollbar{display:none}
+.rev{flex:0 0 calc(33.333% - 14px);scroll-snap-align:start;background:rgba(255,255,255,.13);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:26px}
+.stars{color:#FFD43B;font-size:16px;margin-bottom:12px;letter-spacing:2px}
+.rev p{font-size:15px;margin-bottom:18px;opacity:.96}
+.rev-user{display:flex;align-items:center;gap:12px}
+.avatar{width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.25);display:grid;place-items:center;font-weight:700;font-size:17px}
+.rev-user b{font-size:14.5px;display:block}
+.rev-user span{font-size:12.5px;opacity:.8}
+.rev-dots{display:flex;justify-content:center;gap:8px;margin-top:6px}
+.rev-dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.4)}
+
+/* GALLERY */
+.gal{columns:3;column-gap:16px;margin-top:8px}
+.gal-item{break-inside:avoid;margin-bottom:16px;border-radius:16px;overflow:hidden;position:relative;cursor:pointer;background:var(--grad);color:#fff;display:grid;place-items:center;font-weight:600;transition:.3s}
+.gal-item:hover{transform:scale(1.02)}
+.gal-item:hover .gal-overlay{opacity:1}
+.gal-overlay{position:absolute;inset:0;background:rgba(8,68,160,.55);display:grid;place-items:center;opacity:0;transition:.3s;backdrop-filter:blur(2px)}
+
+/* FAQ */
+.faq-list{max-width:780px;margin:8px auto 0}
+.faq{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.faq-q{padding:20px 22px;font-weight:600;font-size:16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.faq-q .chev{transition:.3s;color:var(--blue);flex-shrink:0}
+.faq.open .chev{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--muted);font-size:15px}
+.faq-a div{padding:0 22px 20px}
+
+/* FORM */
+.form-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-top:8px}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;box-shadow:var(--shadow-lg)}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:14px;font-weight:600;margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;font-family:inherit;font-size:14.5px;background:var(--bg);transition:.2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue);background:#fff;box-shadow:0 0 0 3px rgba(11,94,215,.12)}
+.field textarea{resize:vertical;min-height:90px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.err{color:#dc2626;font-size:12.5px;margin-top:5px;display:none}
+.field.invalid .err{display:block}
+.field.invalid input,.field.invalid select{border-color:#dc2626}
+.form-side{display:flex;flex-direction:column;gap:16px}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;gap:14px;align-items:flex-start;transition:.25s;color:inherit;cursor:pointer}
+.contact-card:hover{box-shadow:var(--shadow);transform:translateX(4px)}
+.contact-card .ic{width:46px;height:46px;border-radius:12px;background:#EAF1FE;color:var(--blue);display:grid;place-items:center;flex-shrink:0}
+.contact-card b{font-size:14px;display:block;margin-bottom:3px}
+.contact-card span{font-size:14px;color:var(--muted)}
+.map-embed{border:1px solid var(--line);border-radius:16px;overflow:hidden;height:260px;background:var(--bg);display:block}
+.map-embed iframe{display:block;width:100%;height:100%}
+.contact-btns{display:flex;gap:12px;flex-wrap:wrap}
+
+/* toast */
+.toast{position:fixed;bottom:30px;left:50%;transform:translate(-50%,120px);background:var(--green);color:#fff;padding:15px 26px;border-radius:14px;font-weight:600;z-index:1100;box-shadow:var(--shadow-lg);transition:.4s;display:flex;align-items:center;gap:10px}
+.toast.show{transform:translate(-50%,0)}
+
+/* FOOTER */
+footer{background:#0E1726;color:#cbd5e1;padding:60px 0 0}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;padding-bottom:40px}
+.foot-grid .brand b{color:#fff}
+.foot-grid .brand span{color:#94a3b8}
+footer p.fdesc{font-size:14.5px;margin-top:16px;max-width:330px;color:#94a3b8}
+.foot-col h5{color:#fff;font-size:16px;margin-bottom:16px}
+.foot-col a{display:block;font-size:14.5px;color:#94a3b8;padding:6px 0;transition:.2s}
+.foot-col a:hover{color:#fff;padding-left:4px}
+.social{display:flex;gap:10px}
+.social a{width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:#cbd5e1}
+.social a:hover{background:var(--blue);color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding:22px 0;text-align:center;font-size:13.5px;color:#94a3b8}
+
+/* floating */
+.float-wa{position:fixed;bottom:26px;right:26px;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;z-index:800;box-shadow:0 10px 30px -6px rgba(37,211,102,.6);animation:pulse 2.4s infinite}
+.to-top{position:fixed;bottom:26px;left:26px;width:48px;height:48px;border-radius:50%;background:#fff;border:1px solid var(--line);color:var(--blue);display:grid;place-items:center;z-index:800;cursor:pointer;box-shadow:var(--shadow);opacity:0;visibility:hidden;transition:.3s}
+.to-top.show{opacity:1;visibility:visible}
+.sticky-cta{display:none}
+
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-18px) rotate(8deg)}}
+
+/* responsive */
+@media(max-width:1024px){
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:repeat(3,1fr)}
+  .rev{flex:0 0 calc(50% - 10px)}
+  .gal{columns:2}
+}
+@media(max-width:768px){
+  section{padding:60px 0}
+  .menu,.nav-actions .lang-toggle,.nav-actions .call-btn{display:none}
+  .hamburger{display:block}
+  .hero{padding:60px 0 70px}
+  .hero-grid,.about-grid,.form-wrap{grid-template-columns:1fr;gap:34px}
+  .hero-art{order:-1}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .feat:last-child{grid-column:span 2}
+  .rev{flex:0 0 85%}
+  .foot-grid{grid-template-columns:1fr;gap:30px}
+  .mv-cards{grid-template-columns:1fr}
+  .gal{columns:1}
+  .row2{grid-template-columns:1fr}
+  .float-wa{bottom:80px}
+  .sticky-cta{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:790;background:#fff;border-top:1px solid var(--line);padding:10px 14px;gap:10px;box-shadow:0 -6px 20px -10px rgba(0,0,0,.2)}
+  .sticky-cta .btn{flex:1;justify-content:center;padding:12px}
+  .to-top{bottom:80px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body class="bn">
+<div id="progress"></div>
+
+<!-- NAVBAR -->
+<header id="header">
+<div class="wrap">
+<nav class="nav">
+  <a href="#home" class="brand">
+    <span class="logo">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+    </span>
+    <span>
+      <b data-bn>শহীদ অনলাইন সার্ভিসেস</b><b data-en>Shahid Online Services</b>
+      <span>Sylhet, Bangladesh</span>
+    </span>
+  </a>
+
+  <ul class="menu">
+    <li><a href="#home" data-bn>হোম</a><a href="#home" data-en>Home</a></li>
+    <li><a href="#about" data-bn>আমাদের সম্পর্কে</a><a href="#about" data-en>About</a></li>
+    <li><a href="#services" data-bn>সেবাসমূহ</a><a href="#services" data-en>Services</a></li>
+    <li><a href="#reviews" data-bn>রিভিউ</a><a href="#reviews" data-en>Reviews</a></li>
+    <li><a href="#gallery" data-bn>গ্যালারি</a><a href="#gallery" data-en>Gallery</a></li>
+    <li><a href="#faq" data-bn>প্রশ্নোত্তর</a><a href="#faq" data-en>FAQ</a></li>
+    <li><a href="#contact" data-bn>যোগাযোগ</a><a href="#contact" data-en>Contact</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <div class="lang-toggle">
+      <button id="bn-btn" class="active" onclick="setLang('bn')">বাং</button>
+      <button id="en-btn" onclick="setLang('en')">EN</button>
+    </div>
+    <a href="tel:+8801619234820" class="btn btn-primary call-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span data-bn>কল করুন</span><span data-en>Call Now</span>
+    </a>
+    <button class="hamburger" onclick="toggleDrawer(true)" aria-label="Menu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+</div>
+</header>
+
+<!-- mobile drawer -->
+<div class="overlay" id="overlay" onclick="toggleDrawer(false)"></div>
+<aside class="drawer" id="drawer">
+  <button class="drawer-close" onclick="toggleDrawer(false)" aria-label="Close">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#home" onclick="toggleDrawer(false)" data-bn>হোম</a><a href="#home" onclick="toggleDrawer(false)" data-en>Home</a>
+  <a href="#about" onclick="toggleDrawer(false)" data-bn>আমাদের সম্পর্কে</a><a href="#about" onclick="toggleDrawer(false)" data-en>About</a>
+  <a href="#services" onclick="toggleDrawer(false)" data-bn>সেবাসমূহ</a><a href="#services" onclick="toggleDrawer(false)" data-en>Services</a>
+  <a href="#reviews" onclick="toggleDrawer(false)" data-bn>রিভিউ</a><a href="#reviews" onclick="toggleDrawer(false)" data-en>Reviews</a>
+  <a href="#gallery" onclick="toggleDrawer(false)" data-bn>গ্যালারি</a><a href="#gallery" onclick="toggleDrawer(false)" data-en>Gallery</a>
+  <a href="#faq" onclick="toggleDrawer(false)" data-bn>প্রশ্নোত্তর</a><a href="#faq" onclick="toggleDrawer(false)" data-en>FAQ</a>
+  <a href="#contact" onclick="toggleDrawer(false)" data-bn>যোগাযোগ</a><a href="#contact" onclick="toggleDrawer(false)" data-en>Contact</a>
+  <div class="lang-toggle" style="margin-top:14px;width:fit-content">
+    <button onclick="setLang('bn')" class="active" id="bn-btn2">বাংলা</button>
+    <button onclick="setLang('en')" id="en-btn2">English</button>
+  </div>
+</aside>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="blob" style="width:180px;height:180px;top:20%;left:8%"></div>
+  <div class="blob" style="width:120px;height:120px;bottom:18%;right:14%;animation-delay:-3s"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="reveal in">
+        <h1 data-bn>আপনার নির্ভরযোগ্য<br>ডিজিটাল সেবা কেন্দ্র</h1>
+        <h1 data-en>Your Trusted<br>Digital Service Center</h1>
+        <p class="sub" data-bn>এনআইডি, জন্ম নিবন্ধন, পাসপোর্ট, অনলাইন আবেদনসহ সকল ডিজিটাল সেবা এক জায়গায়।</p>
+        <p class="sub" data-en>NID, birth registration, passport, online applications and all digital services — in one place.</p>
+        <div class="hero-cta">
+          <a href="#services" class="btn btn-ghost"><span data-bn>সেবা দেখুন</span><span data-en>View Services</span></a>
+          <a href="#contact" class="btn btn-primary" style="background:#fff;color:var(--blue)"><span data-bn>যোগাযোগ করুন</span><span data-en>Contact Us</span></a>
+        </div>
+        <div class="badges">
+          <span class="badge">✓ <span data-bn>৫০০০+ সন্তুষ্ট গ্রাহক</span><span data-en>5000+ happy customers</span></span>
+          <span class="badge">★ <span data-bn>৫+ বছরের অভিজ্ঞতা</span><span data-en>5+ years experience</span></span>
+          <span class="badge">⚡ <span data-bn>দ্রুত সেবা</span><span data-en>Fast service</span></span>
+        </div>
+      </div>
+      <div class="hero-art reveal in">
+        <div class="hero-card">
+          <h4 data-bn>জনপ্রিয় সেবাসমূহ</h4><h4 data-en>Popular Services</h4>
+          <div class="mini-grid">
+            <div class="mini"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h2M15 12h2M7 16h10"/></svg></span><b data-bn>এনআইডি সেবা</b><b data-en>NID Service</b></div>
+            <div class="mini"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></span><b data-bn>পাসপোর্ট</b><b data-en>Passport</b></div>
+            <div class="mini"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></span><b data-bn>জন্ম নিবন্ধন</b><b data-en>Birth Reg.</b></div>
+            <div class="mini"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span><b data-bn>ট্রেড লাইসেন্স</b><b data-en>Trade License</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-bn>আমাদের সম্পর্কে</span><span class="eyebrow" data-en>About Us</span>
+      <h2 class="sec-title" data-bn>সবার জন্য সহজ ও নির্ভরযোগ্য ডিজিটাল সেবা</h2>
+      <h2 class="sec-title" data-en>Simple, reliable digital services for everyone</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="big-ic"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/><path d="M9 9v.01M9 12v.01M9 15v.01M9 18v.01"/></svg></div>
+      </div>
+      <div class="reveal">
+        <p class="sec-sub" data-bn>শহীদ অনলাইন সার্ভিসেস পয়েন্ট একটি বিশ্বস্ত ডিজিটাল সেবা কেন্দ্র, যেখানে সরকারি ও অনলাইন আবেদন দ্রুত এবং নির্ভুলভাবে সম্পন্ন করা হয়।</p>
+        <p class="sec-sub" data-en>Shahid Online Services Point is a trusted digital service center helping people complete government and online applications quickly and accurately.</p>
+        <div class="mv-cards">
+          <div class="mv">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+            <h5 data-bn>মিশন</h5><h5 data-en>Mission</h5>
+            <p data-bn>সবার জন্য সহজ ডিজিটাল সেবা নিশ্চিত করা।</p>
+            <p data-en>Ensuring easy digital services for all.</p>
+          </div>
+          <div class="mv">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></span>
+            <h5 data-bn>ভিশন</h5><h5 data-en>Vision</h5>
+            <p data-bn>ডিজিটাল বাংলাদেশ গঠনে নির্ভরযোগ্য সেবা প্রদান।</p>
+            <p data-en>Reliable service for a Digital Bangladesh.</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num" data-count="5">0</div><div class="lbl" data-bn>বছরের অভিজ্ঞতা</div><div class="lbl" data-en>Years experience</div></div>
+          <div class="stat"><div class="num" data-count="10000" data-suffix="+">0</div><div class="lbl" data-bn>সম্পন্ন সেবা</div><div class="lbl" data-en>Services done</div></div>
+          <div class="stat"><div class="num" data-count="95" data-suffix="%">0</div><div class="lbl" data-bn>সন্তুষ্টি হার</div><div class="lbl" data-en>Satisfaction</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:#fff">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-bn>আমাদের সেবাসমূহ</span><span class="eyebrow" data-en>Our Services</span>
+      <h2 class="sec-title" data-bn>সকল ডিজিটাল সেবা এক ছাদের নিচে</h2>
+      <h2 class="sec-title" data-en>All digital services under one roof</h2>
+      <p class="sec-sub" data-bn>সরকারি, ইউটিলিটি ও কম্পিউটার সংক্রান্ত সকল সেবা আমরা প্রদান করি।</p>
+      <p class="sec-sub" data-en>Government, utility and computer services — we handle them all.</p>
+    </div>
+
+    <h3 class="svc-cat reveal"><span class="dot"></span><span data-bn>সরকারি সেবা</span><span data-en>Government Services</span></h3>
+    <div class="svc-grid" id="gov-svc"></div>
+
+    <h3 class="svc-cat reveal"><span class="dot"></span><span data-bn>ইউটিলিটি সেবা</span><span data-en>Utility Services</span></h3>
+    <div class="svc-grid" id="util-svc"></div>
+
+    <h3 class="svc-cat reveal"><span class="dot"></span><span data-bn>কম্পিউটার সেবা</span><span data-en>Computer Services</span></h3>
+    <div class="svc-grid" id="comp-svc"></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-bn>কেন আমরা</span><span class="eyebrow" data-en>Why Choose Us</span>
+      <h2 class="sec-title" data-bn>কেন আমাদের বেছে নেবেন</h2>
+      <h2 class="sec-title" data-en>Reasons customers trust us</h2>
+    </div>
+    <div class="why-grid" id="why-grid"></div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" style="color:#cfe0ff" data-bn>গ্রাহক রিভিউ</span><span class="eyebrow" style="color:#cfe0ff" data-en>Customer Reviews</span>
+      <h2 class="sec-title" data-bn>আমাদের গ্রাহকরা যা বলেন</h2>
+      <h2 class="sec-title" data-en>What our customers say</h2>
+    </div>
+    <div class="rev-track" id="rev-track"></div>
+    <div class="rev-dots"><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" style="background:#fff">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-bn>গ্যালারি</span><span class="eyebrow" data-en>Gallery</span>
+      <h2 class="sec-title" data-bn>আমাদের সেবা কেন্দ্র</h2>
+      <h2 class="sec-title" data-en>Inside our service center</h2>
+    </div>
+    <div class="gal reveal" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="why" id="faq">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-bn>প্রশ্নোত্তর</span><span class="eyebrow" data-en>FAQ</span>
+      <h2 class="sec-title" data-bn>সাধারণ জিজ্ঞাসা</h2>
+      <h2 class="sec-title" data-en>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list reveal" id="faq-list"></div>
+  </div>
+</section>
+
+<!-- FORM + CONTACT -->
+<section id="contact" style="background:#fff">
+  <div class="wrap">
+    <div class="reveal center">
+      <span class="eyebrow" data-bn>যোগাযোগ</span><span class="eyebrow" data-en>Get In Touch</span>
+      <h2 class="sec-title" data-bn>অনলাইন সেবার অনুরোধ পাঠান</h2>
+      <h2 class="sec-title" data-en>Request a service online</h2>
+    </div>
+    <div class="form-wrap">
+      <!-- FORM -->
+      <div class="form-card reveal">
+        <div class="field" id="f-name">
+          <label data-bn>পূর্ণ নাম</label><label data-en>Full Name</label>
+          <input type="text" placeholder="আপনার নাম" />
+          <span class="err" data-bn>নাম লিখুন</span><span class="err" data-en>Name is required</span>
+        </div>
+        <div class="row2">
+          <div class="field" id="f-phone">
+            <label data-bn>ফোন নম্বর</label><label data-en>Phone Number</label>
+            <input type="tel" placeholder="01XXXXXXXXX" />
+            <span class="err" data-bn>সঠিক ফোন নম্বর দিন</span><span class="err" data-en>Enter a valid phone</span>
+          </div>
+          <div class="field" id="f-wa">
+            <label data-bn>হোয়াটসঅ্যাপ নম্বর</label><label data-en>WhatsApp Number</label>
+            <input type="tel" placeholder="01XXXXXXXXX" />
+          </div>
+        </div>
+        <div class="field" id="f-type">
+          <label data-bn>সেবার ধরন</label><label data-en>Service Type</label>
+          <select>
+            <option value="" data-bn="সেবা নির্বাচন করুন" data-en="Select a service">সেবা নির্বাচন করুন</option>
+            <optgroup data-bn="সরকারি সেবা" data-en="Government Services" label="সরকারি সেবা">
+              <option value="NID Application & Correction" data-bn="জাতীয় পরিচয়পত্র (NID) আবেদন ও সংশোধন" data-en="NID Application & Correction">জাতীয় পরিচয়পত্র (NID) আবেদন ও সংশোধন</option>
+              <option value="Birth Registration" data-bn="জন্ম নিবন্ধন আবেদন ও সংশোধন" data-en="Birth Registration">জন্ম নিবন্ধন আবেদন ও সংশোধন</option>
+              <option value="Passport Application" data-bn="পাসপোর্ট আবেদন" data-en="Passport Application">পাসপোর্ট আবেদন</option>
+              <option value="E-Passport Support" data-bn="ই-পাসপোর্ট সহায়তা" data-en="E-Passport Support">ই-পাসপোর্ট সহায়তা</option>
+              <option value="Police Clearance" data-bn="পুলিশ ক্লিয়ারেন্স আবেদন" data-en="Police Clearance">পুলিশ ক্লিয়ারেন্স আবেদন</option>
+              <option value="Trade License" data-bn="ট্রেড লাইসেন্স আবেদন" data-en="Trade License">ট্রেড লাইসেন্স আবেদন</option>
+              <option value="e-TIN Certificate" data-bn="টিন সার্টিফিকেট (e-TIN)" data-en="e-TIN Certificate">টিন সার্টিফিকেট (e-TIN)</option>
+              <option value="Online Visa Application" data-bn="অনলাইন ভিসা আবেদন" data-en="Online Visa Application">অনলাইন ভিসা আবেদন</option>
+              <option value="Job Applications" data-bn="চাকরির আবেদন" data-en="Job Applications">চাকরির আবেদন</option>
+              <option value="University Admission" data-bn="বিশ্ববিদ্যালয় ভর্তি আবেদন" data-en="University Admission">বিশ্ববিদ্যালয় ভর্তি আবেদন</option>
+              <option value="Land Services" data-bn="ভূমি সংক্রান্ত অনলাইন সেবা" data-en="Land Services">ভূমি সংক্রান্ত অনলাইন সেবা</option>
+            </optgroup>
+            <optgroup data-bn="ইউটিলিটি সেবা" data-en="Utility Services" label="ইউটিলিটি সেবা">
+              <option value="Utility Bill Payment" data-bn="বিদ্যুৎ, গ্যাস ও পানি বিল পরিশোধ" data-en="Utility Bill Payment">বিদ্যুৎ, গ্যাস ও পানি বিল পরিশোধ</option>
+              <option value="Mobile Banking" data-bn="মোবাইল ব্যাংকিং সেবা" data-en="Mobile Banking">মোবাইল ব্যাংকিং সেবা</option>
+            </optgroup>
+            <optgroup data-bn="কম্পিউটার সেবা" data-en="Computer Services" label="কম্পিউটার সেবা">
+              <option value="Computer Typing" data-bn="কম্পিউটার টাইপিং (বাংলা ও ইংরেজি)" data-en="Computer Typing">কম্পিউটার টাইপিং (বাংলা ও ইংরেজি)</option>
+              <option value="Scan, Print & Photocopy" data-bn="স্ক্যান, প্রিন্ট ও ফটোকপি" data-en="Scan, Print & Photocopy">স্ক্যান, প্রিন্ট ও ফটোকপি</option>
+              <option value="CV / Resume Building" data-bn="জীবনবৃত্তান্ত (CV) তৈরি" data-en="CV / Resume Building">জীবনবৃত্তান্ত (CV) তৈরি</option>
+              <option value="Email & Document Support" data-bn="ইমেইল ও ডকুমেন্ট সাপোর্ট" data-en="Email & Document Support">ইমেইল ও ডকুমেন্ট সাপোর্ট</option>
+              <option value="Online Form Filling" data-bn="সকল ধরনের অনলাইন ফরম পূরণ" data-en="Online Form Filling">সকল ধরনের অনলাইন ফরম পূরণ</option>
+            </optgroup>
+            <option value="Other" data-bn="অন্যান্য সেবা" data-en="Other Service">অন্যান্য সেবা</option>
+          </select>
+          <span class="err" data-bn>সেবা নির্বাচন করুন</span><span class="err" data-en>Select a service</span>
+        </div>
+        <div class="field">
+          <label data-bn>ডকুমেন্ট আপলোড</label><label data-en>Document Upload</label>
+          <input type="file" id="f-file" />
+          <span class="err" id="file-err" data-bn>ফাইল সর্বোচ্চ ৫MB</span><span class="err" data-en>Max file size 5MB</span>
+        </div>
+        <div class="field">
+          <label data-bn>বার্তা</label><label data-en>Message</label>
+          <textarea placeholder="আপনার প্রয়োজন লিখুন..."></textarea>
+        </div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center" onclick="submitForm()">
+          <span data-bn>অনুরোধ পাঠান</span><span data-en>Send Request</span>
+        </button>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="form-side reveal">
+        <a class="contact-card" href="https://maps.app.goo.gl/hxCmEaVXCXeBedyC7" target="_blank" rel="noopener">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div><b data-bn>অফিস ঠিকানা</b><b data-en>Office Address</b><span data-bn>মাসুম বাজার, বিরশ্রী, জকিগঞ্জ রোড, সিলেট ৩১৯০</span><span data-en>Masum Bazar, Biroshree, Zakiganj Road, Sylhet 3190</span></div>
+        </a>
+        <a class="contact-card" href="tel:+8801619234820">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><b data-bn>ফোন</b><b data-en>Phone</b><span>+880 1619-234820</span></div>
+        </a>
+        <a class="contact-card" href="https://wa.me/8801619234820?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" rel="noopener">
+          <span class="ic" style="background:#E7F8EE;color:var(--green)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+          <div><b>WhatsApp</b><span>+880 1619-234820</span></div>
+        </a>
+        <div class="contact-card">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg></span>
+          <div><b data-bn>ইমেইল</b><b data-en>Email</b><span>info@shahidservices.com</span></div>
+        </div>
+        <div class="contact-card">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+          <div><b data-bn>ব্যবসায়িক সময়</b><b data-en>Business Hours</b><span data-bn>শনি–বৃহঃ ৯টা–৯টা · শুক্র বন্ধ</span><span data-en>Sat–Thu 9AM–9PM · Fri Closed</span></div>
+        </div>
+        <div class="contact-btns">
+          <a href="tel:+8801619234820" class="btn btn-primary"><span data-bn>কল করুন</span><span data-en>Call Now</span></a>
+          <a href="https://wa.me/8801619234820?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" class="btn btn-ghost" style="border-color:var(--green);color:var(--green)"><span data-bn>হোয়াটসঅ্যাপ</span><span data-en>WhatsApp</span></a>
+        </div>
+        <div class="map-embed">
+          <iframe
+            title="Shahid Online Service Point — Masum Bazar, Biroshree, Zakiganj Road, Sylhet"
+            src="https://maps.google.com/maps?q=24.9166236,92.3075883&z=17&output=embed"
+            width="100%" height="100%" style="border:0" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+        <a href="https://maps.app.goo.gl/hxCmEaVXCXeBedyC7" target="_blank" rel="noopener" class="btn btn-ghost" style="justify-content:center">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-bn>গুগল ম্যাপে দেখুন</span><span data-en>Open in Google Maps</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand">
+          <span class="logo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg></span>
+          <span><b data-bn>শহীদ অনলাইন সার্ভিসেস</b><b data-en>Shahid Online Services</b><span>Sylhet, Bangladesh</span></span>
+        </div>
+        <p class="fdesc" data-bn>আপনার নির্ভরযোগ্য ডিজিটাল সেবা কেন্দ্র। সরকারি ও অনলাইন আবেদন দ্রুত, নিরাপদ ও নির্ভুলভাবে সম্পন্ন করি।</p>
+        <p class="fdesc" data-en>Your trusted digital service center. We complete government and online applications quickly, securely and accurately.</p>
+      </div>
+      <div class="foot-col">
+        <h5 data-bn>দ্রুত লিংক</h5><h5 data-en>Quick Links</h5>
+        <a href="#home" data-bn>হোম</a><a href="#home" data-en>Home</a>
+        <a href="#services" data-bn>সেবাসমূহ</a><a href="#services" data-en>Services</a>
+        <a href="#faq" data-bn>প্রশ্নোত্তর</a><a href="#faq" data-en>FAQ</a>
+        <a href="#contact" data-bn>যোগাযোগ</a><a href="#contact" data-en>Contact</a>
+      </div>
+      <div class="foot-col">
+        <h5 data-bn>সোশ্যাল মিডিয়া</h5><h5 data-en>Social Media</h5>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://wa.me/8801619234820?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.46-5.17a3 3 0 0 0-2.1-2.1C18.7 4.27 12 4.27 12 4.27s-6.7 0-8.44.46a3 3 0 0 0-2.1 2.1C1 8.5 1 12 1 12s0 3.5.46 5.17a3 3 0 0 0 2.1 2.1c1.74.46 8.44.46 8.44.46s6.7 0 8.44-.46a3 3 0 0 0 2.1-2.1C23 15.5 23 12 23 12zM9.75 15.5v-7l6 3.5z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Shahid Online Services Point. <span style="opacity:.4">[v3]</span><!-- BUILD v3 --> <span data-bn>সর্বস্বত্ব সংরক্ষিত।</span><span data-en>All rights reserved.</span></div>
+  </div>
+</footer>
+
+<!-- floating -->
+<a href="https://wa.me/8801619234820?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" class="float-wa" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.6-.1-.4-.1-.9-.3-1.5-.6-2.6-1.1-4.3-3.8-4.4-4-.1-.2-1-1.4-1-2.6 0-1.2.6-1.8.9-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.5l-.3.4c-.1.2-.3.3-.1.6.1.3.7 1.1 1.4 1.8.9.8 1.7 1.1 2 1.2.2.1.4.1.5-.1l.6-.7c.2-.2.4-.2.6-.1l1.8.9c.2.1.4.2.4.3.1.1.1.6-.1 1.1z"/></svg>
+</a>
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Top">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<!-- sticky mobile CTA -->
+<div class="sticky-cta">
+  <a href="tel:+8801619234820" class="btn btn-primary"><span data-bn>কল</span><span data-en>Call</span></a>
+  <a href="https://wa.me/8801619234820?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" class="btn btn-ghost" style="border-color:var(--green);color:var(--green)">WhatsApp</a>
+</div>
+
+<div class="toast" id="toast"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg><span data-bn>অনুরোধ সফলভাবে পাঠানো হয়েছে!</span><span data-en>Request sent successfully!</span></div>
+
+<script>
+/* ---------- DATA ---------- */
+const govServices=[
+ {bn:'জাতীয় পরিচয়পত্র (NID) আবেদন ও সংশোধন',en:'NID Application & Correction',dbn:'নতুন NID ও সংশোধনের সম্পূর্ণ সহায়তা',den:'Full support for new NID & corrections',ic:'card'},
+ {bn:'জন্ম নিবন্ধন আবেদন ও সংশোধন',en:'Birth Registration',dbn:'অনলাইন জন্ম নিবন্ধন আবেদন',den:'Online birth registration applications',ic:'file'},
+ {bn:'পাসপোর্ট আবেদন',en:'Passport Application',dbn:'নতুন পাসপোর্টের আবেদন প্রক্রিয়া',den:'New passport application process',ic:'globe'},
+ {bn:'ই-পাসপোর্ট সহায়তা',en:'E-Passport Support',dbn:'ই-পাসপোর্ট ফরম ও স্লট বুকিং',den:'E-passport form & slot booking',ic:'globe'},
+ {bn:'পুলিশ ক্লিয়ারেন্স আবেদন',en:'Police Clearance',dbn:'পুলিশ ভেরিফিকেশন আবেদন',den:'Police verification applications',ic:'shield'},
+ {bn:'ট্রেড লাইসেন্স আবেদন',en:'Trade License',dbn:'ব্যবসায়িক লাইসেন্স আবেদন',den:'Business license applications',ic:'briefcase'},
+ {bn:'টিন সার্টিফিকেট (e-TIN)',en:'e-TIN Certificate',dbn:'কর সনাক্তকরণ নম্বর রেজিস্ট্রেশন',den:'Tax identification registration',ic:'doc'},
+ {bn:'অনলাইন ভিসা আবেদন',en:'Online Visa Application',dbn:'ভিসা আবেদন ও সহায়তা',den:'Visa application support',ic:'plane'},
+ {bn:'চাকরির আবেদন',en:'Job Applications',dbn:'সরকারি ও বেসরকারি চাকরির আবেদন',den:'Govt & private job applications',ic:'briefcase'},
+ {bn:'বিশ্ববিদ্যালয় ভর্তি আবেদন',en:'University Admission',dbn:'ভর্তি ফরম পূরণ ও সহায়তা',den:'Admission form filling & support',ic:'cap'},
+ {bn:'ভূমি সংক্রান্ত অনলাইন সেবা',en:'Land Services',dbn:'নামজারি ও খতিয়ান সেবা',den:'Mutation & record services',ic:'map'}
+];
+const utilServices=[
+ {bn:'বিদ্যুৎ, গ্যাস ও পানি বিল পরিশোধ',en:'Utility Bill Payment',dbn:'সকল ইউটিলিটি বিল পরিশোধ',den:'Pay all utility bills',ic:'bolt'},
+ {bn:'মোবাইল ব্যাংকিং সেবা',en:'Mobile Banking',dbn:'bKash, Nagad, Rocket সহায়তা',den:'bKash, Nagad, Rocket support',ic:'phone'}
+];
+const compServices=[
+ {bn:'কম্পিউটার টাইপিং (বাংলা ও ইংরেজি)',en:'Computer Typing',dbn:'বাংলা ও ইংরেজি টাইপিং',den:'Bangla & English typing',ic:'keyboard'},
+ {bn:'স্ক্যান, প্রিন্ট ও ফটোকপি',en:'Scan, Print & Photocopy',dbn:'সকল প্রিন্টিং সেবা',den:'All printing services',ic:'printer'},
+ {bn:'জীবনবৃত্তান্ত (CV) তৈরি',en:'CV / Resume Building',dbn:'পেশাদার সিভি তৈরি',den:'Professional CV creation',ic:'doc'},
+ {bn:'ইমেইল ও ডকুমেন্ট সাপোর্ট',en:'Email & Document Support',dbn:'ইমেইল সেটআপ ও ডকুমেন্ট',den:'Email setup & documents',ic:'file'},
+ {bn:'সকল ধরনের অনলাইন ফরম পূরণ',en:'Online Form Filling',dbn:'যেকোনো অনলাইন ফরম পূরণ',den:'Fill any online form',ic:'edit'}
+];
+const whyFeatures=[
+ {bn:'দ্রুত সেবা',en:'Fast Service',dbn:'কম সময়ে প্রসেসিং',den:'Quick processing',ic:'bolt'},
+ {bn:'নির্ভুল তথ্য',en:'Accurate Info',dbn:'নির্ভুল আবেদন জমা',den:'Error-free submissions',ic:'check'},
+ {bn:'নিরাপদ ডকুমেন্ট',en:'Secure Documents',dbn:'নিরাপদ ব্যবস্থাপনা',den:'Safe document handling',ic:'shield'},
+ {bn:'অভিজ্ঞ জনবল',en:'Skilled Staff',dbn:'দক্ষ ও অভিজ্ঞ টিম',den:'Experienced team',ic:'users'},
+ {bn:'সাশ্রয়ী মূল্য',en:'Affordable Pricing',dbn:'সাশ্রয়ী খরচ',den:'Budget friendly',ic:'tag'}
+];
+const reviews=[
+ {bn:'খুব দ্রুত এবং নির্ভুলভাবে আমার পাসপোর্ট আবেদন সম্পন্ন হয়েছে।',en:'My passport application was completed quickly and accurately.',name:'রহিম উদ্দিন',nameEn:'Rahim Uddin',loc:'সিলেট',locEn:'Sylhet'},
+ {bn:'NID সংশোধনের জন্য খুব ভালো সহায়তা পেয়েছি।',en:'Got excellent support for my NID correction.',name:'সালমা বেগম',nameEn:'Salma Begum',loc:'সিলেট',locEn:'Sylhet'},
+ {bn:'অনলাইন ফর্ম পূরণে খুবই দক্ষ। ধন্যবাদ।',en:'Very skilled at online form filling. Thank you.',name:'কামাল হোসেন',nameEn:'Kamal Hossain',loc:'সিলেট',locEn:'Sylhet'}
+];
+const gallery=[
+ {bn:'অফিস ফ্রন্ট',en:'Office Front',h:200},
+ {bn:'কাস্টমার সাপোর্ট ডেস্ক',en:'Customer Support Desk',h:260},
+ {bn:'কম্পিউটার ওয়ার্কস্টেশন',en:'Computer Workstations',h:180},
+ {bn:'প্রিন্টিং এরিয়া',en:'Printing Area',h:240},
+ {bn:'সেবা কার্যক্রম',en:'Service Activities',h:200}
+];
+const faqs=[
+ {q_bn:'NID করতে কী লাগবে?',q_en:'What is needed for NID?',a_bn:'জন্ম নিবন্ধন/সংশ্লিষ্ট ডকুমেন্ট, শিক্ষাগত সনদ এবং প্রয়োজনীয় তথ্য নিয়ে এলেই আমরা আপনার আবেদন সম্পন্ন করে দেব।',a_en:'Bring your birth registration/related documents, educational certificate and required information — we will complete your application.'},
+ {q_bn:'পাসপোর্ট আবেদন কত দিনে হয়?',q_en:'How long does a passport take?',a_bn:'আবেদন সম্পন্ন করতে অল্প সময় লাগে। ডেলিভারি সরকারি প্রক্রিয়ার ধরন (রেগুলার/এক্সপ্রেস) অনুযায়ী নির্ধারিত হয়।',a_en:'The application itself takes little time. Delivery depends on the government processing type (regular/express).'},
+ {q_bn:'অনলাইনে আবেদন কি নিরাপদ?',q_en:'Is online application safe?',a_bn:'হ্যাঁ, সম্পূর্ণ নিরাপদ। আপনার সকল ডকুমেন্ট ও তথ্য গোপনীয়তার সাথে সংরক্ষণ করা হয়।',a_en:'Yes, completely safe. All your documents and information are handled with strict confidentiality.'},
+ {q_bn:'সার্ভিস চার্জ কত?',q_en:'What is the service charge?',a_bn:'সেবার ধরন অনুযায়ী চার্জ ভিন্ন হয়। সাশ্রয়ী মূল্যে আমরা সেবা প্রদান করি — সরাসরি যোগাযোগ করলে সঠিক মূল্য জানিয়ে দেব।',a_en:'Charges vary by service type. We offer affordable rates — contact us directly for exact pricing.'}
+];
+
+/* ---------- ICONS ---------- */
+const I={
+ card:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h2M15 12h2M7 16h10"/>',
+ file:'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/>',
+ globe:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/>',
+ shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+ briefcase:'<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+ doc:'<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M16 13H8M16 17H8M10 9H8"/>',
+ plane:'<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 4.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+ cap:'<path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
+ map:'<path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16M16 6v16"/>',
+ bolt:'<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+ phone:'<rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/>',
+ keyboard:'<rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/>',
+ printer:'<path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/>',
+ edit:'<path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.1 2.1 0 0 1 3 3L12 15l-4 1 1-4z"/>',
+ check:'<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m22 4-10 10.01-3-3"/>',
+ users:'<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>',
+ tag:'<path d="M20.59 13.41 13.42 20.59a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1"/>'
+};
+const svgIc=(k,sz=24)=>`<svg width="${sz}" height="${sz}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${I[k]||I.file}</svg>`;
+
+/* ---------- RENDER ---------- */
+function svcCard(s){
+  return `<div class="svc reveal"><span class="ic">${svgIc(s.ic)}</span>
+    <h4 data-bn>${s.bn}</h4><h4 data-en>${s.en}</h4>
+    <p data-bn>${s.dbn}</p><p data-en>${s.den}</p>
+    <a href="#contact" class="more"><span data-bn>বিস্তারিত</span><span data-en>Details</span> →</a></div>`;
+}
+document.getElementById('gov-svc').innerHTML=govServices.map(svcCard).join('');
+document.getElementById('util-svc').innerHTML=utilServices.map(svcCard).join('');
+document.getElementById('comp-svc').innerHTML=compServices.map(svcCard).join('');
+
+document.getElementById('why-grid').innerHTML=whyFeatures.map(f=>
+ `<div class="feat reveal"><span class="ic">${svgIc(f.ic,26)}</span>
+  <h5 data-bn>${f.bn}</h5><h5 data-en>${f.en}</h5>
+  <p data-bn>${f.dbn}</p><p data-en>${f.den}</p></div>`).join('');
+
+document.getElementById('rev-track').innerHTML=reviews.map(r=>
+ `<div class="rev"><div class="stars">★★★★★</div>
+  <p data-bn>"${r.bn}"</p><p data-en>"${r.en}"</p>
+  <div class="rev-user"><div class="avatar" data-bn>${r.name[0]}</div>
+  <div><b data-bn>${r.name}</b><b data-en>${r.nameEn}</b><span data-bn>${r.loc}</span><span data-en>${r.locEn}</span></div></div></div>`).join('');
+
+document.getElementById('gallery-grid').innerHTML=gallery.map(g=>
+ `<div class="gal-item" style="height:${g.h}px" onclick="lightbox(this)">
+  <span data-bn>${g.bn}</span><span data-en>${g.en}</span>
+  <div class="gal-overlay"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></div></div>`).join('');
+
+document.getElementById('faq-list').innerHTML=faqs.map(f=>
+ `<div class="faq"><div class="faq-q" onclick="toggleFaq(this)">
+  <span><span data-bn>${f.q_bn}</span><span data-en>${f.q_en}</span></span>
+  <span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></span></div>
+  <div class="faq-a"><div data-bn>${f.a_bn}</div><div data-en>${f.a_en}</div></div></div>`).join('');
+
+/* service dropdown — options are static in HTML, just grab ref */
+const sel=document.querySelector('#f-type select');
+
+/* ---------- i18n ---------- */
+function setLang(l){
+  document.body.className=l;
+  document.documentElement.lang=l;
+  const onBn=l==='bn';
+  ['bn-btn','bn-btn2'].forEach(id=>document.getElementById(id)?.classList.toggle('active',onBn));
+  ['en-btn','en-btn2'].forEach(id=>document.getElementById(id)?.classList.toggle('active',!onBn));
+  // translate dropdown options + group labels
+  document.querySelectorAll('#f-type option[data-bn]').forEach(o=>o.textContent=onBn?o.dataset.bn:o.dataset.en);
+  document.querySelectorAll('#f-type optgroup[data-bn]').forEach(g=>g.label=onBn?g.dataset.bn:g.dataset.en);
+}
+
+/* ---------- interactions ---------- */
+function toggleDrawer(open){
+  document.getElementById('drawer').classList.toggle('open',open);
+  document.getElementById('overlay').classList.toggle('open',open);
+  document.body.style.overflow=open?'hidden':'';
+}
+function toggleFaq(el){el.parentElement.classList.toggle('open');
+  const a=el.nextElementSibling;a.style.maxHeight=el.parentElement.classList.contains('open')?a.scrollHeight+'px':0;}
+function lightbox(el){alert((document.body.className==='bn'?'ছবি: ':'Image: ')+el.querySelector('[data-'+document.body.className+']').textContent);}
+
+/* form validation */
+function submitForm(){
+  let ok=true;
+  const phoneRe=/^(01)[3-9]\d{8}$/;
+  const name=document.querySelector('#f-name input');
+  const phone=document.querySelector('#f-phone input');
+  const wa=document.querySelector('#f-wa input');
+  const type=document.querySelector('#f-type select');
+  const file=document.getElementById('f-file');
+  const msg=document.querySelector('#contact textarea');
+  document.querySelectorAll('.field').forEach(f=>f.classList.remove('invalid'));
+  if(!name.value.trim()){document.getElementById('f-name').classList.add('invalid');ok=false;}
+  if(!phoneRe.test(phone.value.replace(/\s/g,''))){document.getElementById('f-phone').classList.add('invalid');ok=false;}
+  if(!type.value){document.getElementById('f-type').classList.add('invalid');ok=false;}
+  if(file.files[0] && file.files[0].size>5*1024*1024){file.closest('.field').classList.add('invalid');ok=false;}
+  if(!ok)return;
+
+  const onBn=document.body.className==='bn';
+  // chosen service label in current language
+  const opt=type.options[type.selectedIndex];
+  const svcLabel=onBn?(opt.dataset.bn||opt.textContent):(opt.dataset.en||opt.value);
+
+  // build the message that lands in the business WhatsApp
+  const lines=[
+    onBn?'নতুন সেবার অনুরোধ — শহীদ অনলাইন সার্ভিসেস পয়েন্ট':'New Service Request — Shahid Online Service Point',
+    '',
+    (onBn?'নাম: ':'Name: ')+name.value.trim(),
+    (onBn?'ফোন: ':'Phone: ')+phone.value.trim(),
+    (wa.value.trim()?(onBn?'হোয়াটসঅ্যাপ: ':'WhatsApp: ')+wa.value.trim():null),
+    (onBn?'সেবা: ':'Service: ')+svcLabel,
+    (msg.value.trim()?(onBn?'বার্তা: ':'Message: ')+msg.value.trim():null),
+    (file.files[0]?(onBn?'\n(গ্রাহক একটি ডকুমেন্ট সংযুক্ত করতে চান — চ্যাটে পাঠাবেন)':'\n(Customer has a document to attach — will send in chat)'):null)
+  ].filter(Boolean);
+
+  const waLink='https://wa.me/8801619234820?text='+encodeURIComponent(lines.join('\n'));
+
+  // show confirmation toast, then open WhatsApp
+  const t=document.getElementById('toast');t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3500);
+  window.open(waLink,'_blank');
+
+  name.value='';phone.value='';wa.value='';type.value='';file.value='';msg.value='';
+}
+
+/* scroll effects */
+const header=document.getElementById('header');
+const prog=document.getElementById('progress');
+const toTop=document.getElementById('toTop');
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  header.classList.toggle('shrink',y>30);
+  toTop.classList.toggle('show',y>500);
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  prog.style.width=(y/h*100)+'%';
+});
+
+/* reveal on scroll */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* counters */
+const cObs=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;cObs.unobserve(e.target);
+  const el=e.target,end=+el.dataset.count,suf=el.dataset.suffix||'',dur=1400;let st=null;
+  const step=t=>{if(!st)st=t;const p=Math.min((t-st)/dur,1);
+    el.textContent=Math.floor(p*end).toLocaleString()+suf;
+    if(p<1)requestAnimationFrame(step);};
+  requestAnimationFrame(step);
+}),{threshold:.5});
+document.querySelectorAll('[data-count]').forEach(el=>cObs.observe(el));
+</script>
+</body>
+</html>
